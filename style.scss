@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap');
+
+body {
+  background: #0F2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#navbarLogo {
+  height: 32px;
+}
+
+#parallax {
+  background-image: url("src/header.jpeg");
+  height: 50vh;
+  padding-bottom: 10vh;
+  padding-top: 20vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  z-index: -1;
+
+  h1 {
+    font-family: "raleway", sans-serif;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+    font-size: 4.5vw;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+}
+
+#form-textarea{
+  resize: none;
+}
+
+section {
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px 5px 0 rgba(128, 128, 128, 1);
+  -moz-box-shadow: 5px 5px 5px 0 rgba(128, 128, 128, 1);
+  box-shadow: 5px 5px 5px 0 rgba(128, 128, 128, 1);
+
+  .feature-text {
+    font-size: 1.6vw;
+    font-family: "raleway", sans-serif;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+}
