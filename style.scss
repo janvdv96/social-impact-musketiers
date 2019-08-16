@@ -7,6 +7,14 @@ body {
 
 }
 
+.navbar{
+  font-family: "Raleway" ,sans-serif;
+
+  .nav-item:hover{
+    text-decoration: underline;
+  }
+}
+
 #navbarLogo {
   height: 32px;
 }

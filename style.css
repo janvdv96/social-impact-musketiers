@@ -7,6 +7,11 @@ body {
   background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
+.navbar {
+  font-family: "Raleway" ,sans-serif; }
+  .navbar .nav-item:hover {
+    text-decoration: underline; }
+
 #navbarLogo {
   height: 32px; }
 
